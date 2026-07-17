@@ -1,7 +1,14 @@
 # Afreen
 # Student Management System
+# Student Management System
 
-students = []
+students = [
+    {
+        "Roll": "25F81A0502",
+        "Name": "B. Afreen",
+        "Marks": 780
+    }
+]
 
 def add_student():
     roll = input("Enter Roll Number: ")
